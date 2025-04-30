@@ -1,0 +1,17 @@
+1. How to turn a string into an array- resource: https://www.geeksforgeeks.org/string-to-array-in-javascript/
+  1.1 1. Using the String.split() Method
+  The most common method for converting a string to an array is using the split() method. It allows you to specify a delimiter (separator) that divides the string into an array of substrings.
+
+    Syntax
+
+    string.split(separator, limit);
+    In the above syntax
+
+    separator: Defines how to split the string. It can be a character, a string, or even a regular expression.
+    limit: Optional. Limits the number of splits in the array.
+
+
+
+    const str = "Hello";
+    const arr = str.split('');
+    console.log(arr); 
